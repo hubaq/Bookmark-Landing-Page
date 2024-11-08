@@ -599,7 +599,7 @@ aside nav ul li a:hover {
 aside .socials {
   justify-self: end;
 }
-@media only screen and (min-width: 375px) and (max-width: 414px) {
+@media only screen and (min-width: 312px) and (max-width: 600px) {
   header {
     width: 100%;
     padding: 2rem 1rem;
@@ -629,6 +629,7 @@ aside .socials {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
+    margin-top: 3rem;
   }
   /* .flex {
     flex-direction: column;
@@ -764,5 +765,18 @@ aside .socials {
   }
   aside {
     display: flex;
+  }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 531px) {
+  .decoratorOne {
+    top: 19%;
+    height: 16rem;
+  }
+}
+@media only screen and (min-width: 532px) and (max-width: 600px) {
+  .decoratorOne {
+    top: 19%;
+    height: 20rem;
   }
 }
